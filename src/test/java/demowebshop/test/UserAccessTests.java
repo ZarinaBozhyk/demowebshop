@@ -24,6 +24,6 @@ public class UserAccessTests extends CommonConditions {
                 .openPage()
                 .login(testUser)
                 .getLoggedInUserName();
-        assertThat(loggedInUserName, is(equalTo("made.in.heaven84sep@gmail.com")));
+        assertThat(loggedInUserName, is(equalTo("an222@gmail.com")));
     }
 }
